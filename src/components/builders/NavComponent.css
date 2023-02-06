@@ -1,0 +1,19 @@
+.header_item {
+    font-size: clamp(0.55rem, 0.75rem, 100%);
+    transition: .2s ease-in;
+}
+
+.header_item>a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+
+.header_item:hover {
+    padding: 2px 4px;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.053);
+    border-radius: 7px;
+}

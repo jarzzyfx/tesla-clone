@@ -1,0 +1,28 @@
+.footer{
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+.footer_item {
+    font-size: 12px;
+    transition: .2s ease-in;
+}
+
+.footer_item>a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_item:hover {
+    text-decoration: underline;
+}
